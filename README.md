@@ -1,49 +1,62 @@
-<h1><img align="center" src="asset/logo.png" width="5%"/> OpenLive3D </h1>
+# dodo.OpenLive3D
 
-The open source project for Live3D Virtual Avatar.
+OpenLive3D を自分用に改造してるやつ。
 
-<img src="asset/doc/screenshot.png" width="100%"/>
+---
 
+## 🚀 いますぐ試す
 
-## TRY NOW!
+- ~~[🔗 本番サイト](https://openlive3d.com/)~~
+- 工事中
 
- - Live Website: https://openlive3d.com/
- - GitHub Organization: https://github.com/OpenLive3D
- - Discord: [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/pGPY5Jfhvz)
- - [Documents](https://github.com/OpenLive3D/OpenLive3D.document)
- - [Dev Log](DEVLOG.md)
- - [See It In Action!](https://youtu.be/U5U6KYeYTEs)
+---
 
+## 🎯 これはなに？
 
-## Project Features
+推し活、配信、収録、会議まで。  
+**表情・カメラの動き**を軽いマシンでも扱えるようにしたかった。
 
-Current Virtual Avatar software often require expensive setup. For this project, our goals are:
+このリポジトリでは、以下のカスタマイズを追加中：
 
- - Easy to Use
- - Less Hardware Requirement
- - Highly Customizable
+### 🔧 改造ポイント（予定含む）
 
+- [x] Cookieの有効期限変更（保存設定を長期間に）
+- [ ] 設定のExport/Import機能
+- [ ] 描画処理を軽量化
+- [ ] その他処理も軽量化
+- [ ] 使わない機能を非表示にする（音楽とか、表情とか）
 
-## Engineering Features
+### 💭できたらいいなぁ
 
-The project aims to connect the half-body movement with facial landmarks to the 3D `VRM` avatar.
+- [ ] 言語を自動取得
+- [ ] 口の形を開閉以外も表現する
+- [ ] 回転オフセット（カメラに角度が付いてても使えるように）
+- [ ] 回転オフセットのキャリブレーション
+- [ ] 瞳を上下にも動くように
+- [ ] モデルを選択式にする
+- [ ] 服やオブジェクトに文字を書いて表示する
+- [ ] 指トラッキング
+- [ ] 背景透過出力
+- [ ] OBS ブラウザソースでも使えるように
+- [ ] 仮想カメラ出力
 
- - Facial landmark & holistic models based on `mediapipe`
- - Adjustable config to map landmarks to the avatar
- - Modularized and flexible structure
+※ 元プロジェクトと一部挙動が違うことがあります
 
+---
 
-## Project Status
+## 🛠 技術メモ
 
-w-2.1.X:
- - Core Separation
- - Thread Control
- - Safari Support
+- empty
 
+---
 
-## Sponsors
+## 👤 クレジット
 
-Great Thanks to our Sponsors:
+- 本家: [OpenLive3D](https://github.com/OpenLive3D)
+- 改造者(ぼく): [どどど素人（@super_amateur_c）](https://twitter.com/super_amateur_c)
 
- - [Gabrielle666x](https://github.com/Gabrielle666x)
+---
 
+## 💬 お問い合わせとか
+
+- Twitter: [@super_amateur_c](https://twitter.com/super_amateur_c)
