@@ -4,8 +4,12 @@ function getSavedConfig(){
     return document.cookie;
 }
 function setSavedConfig(saveString){
-    document.cookie = saveString;
+    let date = new Date();
+    date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000 - 1)); // 7日 - 1ms
+    let expires = "expires=" + date.toUTCString();
+    document.cookie = "config=" + saveString + "; " + expires + "; path=/";
 }
+
 
 function setLogAPI(saveString){
     try{
