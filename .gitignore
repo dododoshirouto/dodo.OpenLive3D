@@ -4,4 +4,4 @@ Gemfile.lock
 _site
 __TEST__
 
-.vrm
+*.vrm
