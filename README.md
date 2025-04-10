@@ -48,6 +48,23 @@ OpenLive3D を自分用に改造してるやつ。
 
 ---
 
+## 解析メモ
+
+### VRMモデルの描画をしてるとこを探す
+
+- index.html: requestAnimationFrame(initLoop);
+- control-manager.js: checkIntegrate()
+- control-manager.js: requestAnimationFrame(viLoop);
+- control-manager.js: updateVRMScene();
+- control-manager.js: drawScene();
+- gui-layout.js: renderer.render(scene, camera);
+
+### 設定GUIの追加
+
+- gui-layout.js: createLayout()
+
+---
+
 ## 🛠 技術メモ
 
 - empty
