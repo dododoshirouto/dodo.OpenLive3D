@@ -74,7 +74,7 @@ OpenLive3D を自分用に改造してるやつ。
 
 ## 🛠 技術メモ
 
-- empty
+- [Python WebSocket Server](https://github.com/dododoshirouto/PythonWebSocketServer)
 
 ---
 
